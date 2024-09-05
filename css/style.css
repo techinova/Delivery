@@ -20,7 +20,14 @@ a {
 ul {
     list-style: none;
 }
-
+/* Logo da Humburgueria*/
+.logo  {
+    color:#CC0000;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
 /* Navbar */
 .navbar {
     display: flex;
