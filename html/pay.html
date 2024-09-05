@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/pay.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">BurgerShop</div>
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/html/menu.html">Menu</a></li>
+            <li><a href="/html/userpage.html">Conta</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <img src="/src/cheese-burger.png" alt="Cheeseburger Deluxe">
+            <h2>Cheeseburger Deluxe</h2>
+            <p class="description">
+                Um suculento hambúrguer de carne bovina, com queijo cheddar, alface, tomate e molho especial.
+            </p>
+            <h3>Ingredientes</h3>
+            <ul class="ingredients">
+                <li>
+                    <label>
+                        <input type="checkbox" checked data-price="2.00"> Queijo Cheddar (R$ 2,00)
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" checked data-price="1.50"> Alface (R$ 1,50)
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" checked data-price="1.00"> Tomate (R$ 1,00)
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" checked data-price="1.50"> Molho Especial (R$ 1,50)
+                    </label>
+                </li>
+            </ul>
+            <h3>Total: R$ <span id="total-price">35,99</span></h3>
+            <button class="btn">Adicionar ao Carrinho</button>
+            <button class="btn">Finalizar Compra</button>
+        </div>
+
+        <div class="comments-section">
+            <h3>Comentários</h3>
+            <textarea placeholder="Escreva seus comentários aqui..."></textarea>
+            <button class="send-btn">Enviar Comentário</button>
+            
+            <div class="existing-comments">
+                <div class="comment">
+                    <p><strong>João:</strong> Ótimo hambúrguer, super saboroso!</p>
+                    <span class="date">30/08/2024</span>
+                </div>
+                <div class="comment">
+                    <p><strong>Maria:</strong> Adorei o molho especial, combina muito bem com o cheddar.</p>
+                    <span class="date">29/08/2024</span>
+                </div>
+                <div class="comment">
+                    <p><strong>Carlos:</strong> A entrega foi rápida e o lanche chegou quentinho!</p>
+                    <span class="date">28/08/2024</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="related-products">
+            <h3>Você também pode gostar</h3>
+            <div class="product-cards">
+                <div class="product-card">
+                    <img src="/src/duplo-bacon.png" alt="Duplo Bacon">
+                    <h4>Duplo Bacon</h4>
+                    <p>R$ 39,99</p>
+                </div>
+                <div class="product-card">
+                    <img src="/src/vaggie-burger.png" alt="Veggie Burger">
+                    <h4>Veggie Burger</h4>
+                    <p>R$ 29,99</p>
+                </div>
+                <div class="product-card">
+                    <img src="/src/especial.png" alt="Especial da Casa">
+                    <h4>Especial da Casa</h4>
+                    <p>R$ 49,99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script/pay.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFEB3B; /* Amarelo */
+}
+
+.navbar {
+    background-color: #D32F2F; /* Vermelho */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar .logo {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+/* user.css */
+
+.user-menu {
+    position: relative;
+}
+
+.user-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+.dropdown.active {
+    display: block;
+}
+
+.dropdown a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #EEE;
+}
+
+.dropdown a i {
+    margin-right: 10px;
+}
+
+.dropdown a:hover {
+    background-color: #F5F5F5;
+}
+
+.dropdown a:last-child {
+    border-bottom: none;
+}
+
+
+
+.icon-settings, .icon-history, .icon-logout {
+    margin-right: 10px;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.products {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.product-card {
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.product-card img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.product-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.product-info .price {
+    font-weight: 600;
+    color: #D32F2F;
+}
+
+.promotions {
+    flex: 1;
+}
+
+.promotion-card {
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.promotion-card h3 {
+    margin-top: 0;
+}

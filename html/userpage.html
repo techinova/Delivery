@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Usuário - Hamburgueria Jack</title>
+    <link rel="stylesheet" href="/css/userpage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- CDN do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="/script/userpage.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Hamburgueria Jack</div>
+        <div class="user-menu">
+            <button class="user-icon">
+                <i class="fas fa-user"></i>
+            </button>
+            
+            <div class="dropdown">
+                <a href="/html/senttings.html"><i class="fas fa-cog"></i> Configurações</a>
+                <a href="/html/historico.html"><i class="fas fa-history"></i> Últimos Itens Comprados</a>
+                <a href="/html/login.html"><i class="fas fa-sign-out-alt"></i> Sair</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Área Principal -->
+    <main class="main-content">
+        <div class="products">
+            <h1>Itens Disponíveis</h1>
+            <!-- Repetir este bloco para cada item -->
+            <div class="product-card">
+                <img src="/produto1.jpg" alt="Produto 1">
+                <div class="product-info">
+                    <h2>Nome do Produto</h2>
+                    <p>Descrição do produto...</p>
+                    <span class="price">R$ 29,90</span>
+                </div>
+            </div>
+            <!-- Fim do bloco de item -->
+        </div>
+
+        <div class="promotions">
+            <h2>Promoções e Descontos</h2>
+            <!-- Repetir este bloco para cada promoção -->
+            <div class="promotion-card">
+                <h3>Promoção 1</h3>
+                <p>Descrição da promoção...</p>
+            </div>
+            <!-- Fim do bloco de promoção -->
+        </div>
+    </main>
+
+</body>
+</html>
