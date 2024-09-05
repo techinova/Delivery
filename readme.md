@@ -40,10 +40,12 @@ Aqui estão algumas sugestões de próximos passos para quem quiser contribuir o
 
 ## mudanças 
 
--alysson: Adicionei as bebidas e modifiquei as imagens 27/08
--arthur: adição de login, cadastro e loadpage(porfavor deixar em responsivo)27/08
+
 -arthur: adição do userpage, settings, historico de pedidos e deslogar(por favor botar no modo responsivo e rafael, talvez precise api ) atualizações futuras, o negocio do motoboy, em tempo real, mas como é  um teste não precisa de api, só se quiser (28/08)
 -adicionei pagina de pagamento(30/08)
+
+## Novas atualizações voltada ao ts e angular
+
 1.** inicialização do segundo passo do projeto, a instalação do typescript
     -fiz a instalação do Typescript usando o "npm install -g typescript"
 
