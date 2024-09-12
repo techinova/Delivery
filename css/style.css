@@ -20,6 +20,10 @@ a {
 ul {
     list-style: none;
 }
+.navbar .logo{
+    color: #f4f4f4;
+    font-size: 15px;
+}
 
 /* Navbar */
 .navbar {
@@ -27,7 +31,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #FFD700;
+    background-color:rgb(20, 20, 20);
 }
 
 .nav-links {
@@ -36,14 +40,15 @@ ul {
 }
 
 .nav-links a {
-    font-weight: bold;
-    color: black;
+    
+    color: rgb(255, 255, 255);
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color:#FFD700;
-    background-color: #CC0000;
+    color:#f4f4f4;
+    border: 1px solid white;
+    padding: 7px;
     border-radius: 10px;
 }
 
@@ -153,8 +158,9 @@ ul {
 footer {
     padding: 20px;
     text-align: center;
-    background-color: #FFD700;
-    color: #4B0082;
+    background-color: #080808;
+    color:#f4f4f4;
+
 }
 
 /* Responsive Design */

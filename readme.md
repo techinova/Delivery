@@ -59,3 +59,4 @@ Adicionado codigo em CSS.
     letter-spacing: 2px;
     font-weight: 700;
 }
+2.## alteração de cor, OBS⚠: botar icone na parte do nova guia, melhorar o responsivo

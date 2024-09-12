@@ -23,12 +23,15 @@ ul {
 }
 
 /* Navbar */
+.navbar .logo{
+    color: #f4f4f4;
+}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #FFD700;
+    background-color: rgb(20, 20, 20);
 }
 
 .nav-links {
@@ -37,13 +40,14 @@ nav {
 }
 
 .nav-links a {
-    font-weight: bold;
-    color: black;
+    
+    color: rgb(255, 242, 242);
     transition: background-color 0.3s;
 }
 
 .nav-links a:hover {
-    background-color: #FF0000;
+    border: 1px solid white;
+    
     border-radius: 10px;
     padding: 5px 10px;
 }
@@ -106,8 +110,8 @@ nav {
 footer {
     padding: 20px;
     text-align: center;
-    background-color: #FFD700;
-    color: black;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
 }
 
 /* Responsive Design */
