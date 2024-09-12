@@ -2,12 +2,13 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFEB3B; /* Amarelo */
+    background-color: #FFF; /* Branco */
+    color: #333; /* Texto padrão */
 }
 
 .navbar {
-    background-color: #D32F2F; /* Vermelho */
-    padding: 10px 20px;
+    background-color: rgb(20, 20, 20); /* Preto */
+    padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,11 +16,10 @@ body {
 }
 
 .navbar .logo {
-    font-weight: 600;
-    font-size: 1.5em;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #FFF;
 }
-
-/* user.css */
 
 .user-menu {
     position: relative;
@@ -28,6 +28,7 @@ body {
 .user-icon {
     background: none;
     border: none;
+    color: #FFF;
     cursor: pointer;
 }
 
@@ -75,38 +76,40 @@ body {
 
 .main-content {
     display: flex;
-    padding: 20px;
+    padding: 30px;
+    background-color: #FFF; /* Branco */
 }
 
 .products {
     flex: 3;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .product-card {
     background-color: #FFF;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .product-card img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin-right: 20px;
     border-radius: 8px;
 }
 
 .product-info h2 {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    color: #333;
 }
 
 .product-info .price {
-    font-weight: 600;
+    font-weight: bold;
     color: #D32F2F;
 }
 
@@ -116,12 +119,12 @@ body {
 
 .promotion-card {
     background-color: #FFF;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     padding: 20px;
-    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .promotion-card h3 {
     margin-top: 0;
+    color: #333;
 }
