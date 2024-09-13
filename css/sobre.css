@@ -105,6 +105,64 @@ nav {
 .sobre-item:hover {
     transform: scale(1.05);
 }
+.sobre-section {
+    padding: 40px;
+    background-color: #FFF;
+}
+
+.sobre-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.sobre-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-item h3 {
+    margin-bottom: 10px;
+}
+
+.sobre-item p {
+    margin-bottom: 20px;
+}
+
+.cadastro-card {
+    background-color: #ffffff; /* Cor suave para destaque */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cadastro-card h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.cadastro-card p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.cadastro-card button {
+    padding: 10px 20px;
+    background-color: #32CD32; /* Cor do botão */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cadastro-card button:hover {
+    background-color:#1E90FF ;
+}
+
 
 /* Footer */
 footer {

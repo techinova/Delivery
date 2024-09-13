@@ -1,0 +1,8 @@
+com/modUp/beta/repository/ClientsRepository.class
+com/modUp/beta/controller/ClientsControllerAdvice.class
+com/modUp/beta/exceptions/ClientNullException.class
+com/modUp/beta/BetaApplication.class
+com/modUp/beta/StartApllication.class
+com/modUp/beta/model/Clients.class
+com/modUp/beta/controller/ClientsController.class
+com/modUp/beta/service/ClientsService.class
