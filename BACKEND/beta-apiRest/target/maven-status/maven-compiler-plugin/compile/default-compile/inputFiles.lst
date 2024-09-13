@@ -1,8 +1,0 @@
-/home/rafael/Documentos/beta/src/main/java/com/modUp/beta/BetaApplication.java
-/home/rafael/Documentos/beta/src/main/java/com/modUp/beta/StartApllication.java
-/home/rafael/Documentos/beta/src/main/java/com/modUp/beta/controller/ClientsController.java
-/home/rafael/Documentos/beta/src/main/java/com/modUp/beta/controller/ClientsControllerAdvice.java
-/home/rafael/Documentos/beta/src/main/java/com/modUp/beta/exceptions/ClientNullException.java
-/home/rafael/Documentos/beta/src/main/java/com/modUp/beta/model/Clients.java
-/home/rafael/Documentos/beta/src/main/java/com/modUp/beta/repository/ClientsRepository.java
-/home/rafael/Documentos/beta/src/main/java/com/modUp/beta/service/ClientsService.java
