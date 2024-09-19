@@ -22,11 +22,6 @@ public class Products {
     private String description;
 
 
-
-
-    //getters and setters
-
-
     public Long getId() {
         return id;
     }
@@ -59,8 +54,6 @@ public class Products {
         this.description = description;
     }
 
-    //to string
-
     @Override
     public String toString() {
         return "Products{" +
@@ -69,5 +62,8 @@ public class Products {
                 ", price=" + price +
                 ", description='" + description + '\'' +
                 '}';
+    }
+
+    public void add(Products referenceById) {
     }
 }

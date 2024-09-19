@@ -1,6 +1,6 @@
 
 
-package com.modUp.beta.config;
+/*package com.modUp.beta.config;
 
 
 
@@ -45,3 +45,5 @@ public class SecurityConfiguration {
 
 
 }
+*/
+
