@@ -27,7 +27,7 @@ public class JwtTokenUtil {
     public String getUsernameFromToken(String token){return getClaimFromToken(token, Claims::getSubject);}
 
     //retrieve expiration date from jwt token
-    public Date getExpirationDateFromToken(String token){return GetClaimFromToken(token, Claims::getExpiration);}
+    public Date getExpirationDateFromToken(String token){return getClaimFromToken(token, Claims::getExpiration);}
 
     public <T> T getClaimFromToken(String token, Function<Claims, T> claimsResolver){
         final Claims claims = getAllClaimsFromToken(token);

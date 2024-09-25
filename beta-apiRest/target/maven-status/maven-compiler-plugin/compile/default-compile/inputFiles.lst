@@ -1,6 +1,21 @@
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\auth\controller\AuthController.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\auth\entity\Role.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\auth\entity\User.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\auth\repository\RoleRepository.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\auth\repository\UserRepository.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\auth\service\RoleService.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\auth\service\UserService.java
 C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\BetaApplication.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\config\check\HealthCheck.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\config\jwt\JwtAuthenticationEntryPoint.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\config\jwt\JwtRequest.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\config\jwt\JwtRequestFilter.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\config\jwt\JwtTokenUtil.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\config\SecurityConfiguration.java
 C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\controller\ProductController.java
 C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\controller\UsersController.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\exceptions\UsersNullException.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\Initializer.java
 C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\model\Orders.java
 C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\model\Products.java
 C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\model\Users.java
@@ -10,3 +25,4 @@ C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\reposi
 C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\service\OrdersService.java
 C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\service\ProductsService.java
 C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\service\UsersService.java
+C:\Users\rss41\Desktop\Delivery\beta-apiRest\src\main\java\com\modUp\beta\ServletInitializer.java

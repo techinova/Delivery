@@ -5,7 +5,6 @@ import com.modUp.beta.model.Orders;
 import com.modUp.beta.model.Products;
 import com.modUp.beta.repository.OrdersRepository;
 import com.modUp.beta.repository.ProductsRepository;
-import org.hibernate.query.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
