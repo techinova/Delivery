@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- CDN do Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
 </head>
 <body>
 
@@ -20,10 +19,13 @@
             <button class="user-icon">
                 <i class="fas fa-user"></i>
             </button>
-            
+            <button class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
             <div class="dropdown">
                 <a href="/html/senttings.html"><i class="fas fa-cog"></i> Configurações</a>
                 <a href="/html/historico.html"><i class="fas fa-history"></i> Últimos Itens Comprados</a>
+                <a href="/html/perfil.html"><i class="fas fa-user-circle"></i> Perfil</a>
                 <a href="/html/login.html"><i class="fas fa-sign-out-alt"></i> Sair</a>
             </div>
         </div>
@@ -31,31 +33,54 @@
 
     <!-- Área Principal -->
     <main class="main-content">
-        <div class="products">
-            <h1>Itens Disponíveis</h1>
-            <!-- Repetir este bloco para cada item -->
-            <div class="product-card">
-                <img src="/produto1.jpg" alt="Produto 1">
-                <div class="product-info">
-                    <h2>Nome do Produto</h2>
-                    <p>Descrição do produto...</p>
-                    <span class="price">R$ 29,90</span>
-                </div>
+        <section class="profile-section">
+            <h1>Bem-vindo(a), [Nome do Usuário]</h1>
+            <p>Aqui você pode gerenciar suas informações, ver compras anteriores e ajustar suas configurações.</p>
+            <div class="profile-actions">
+                <button>Atualizar Informações</button>
+                <button>Histórico de Pedidos</button>
+                <button>Preferências</button>
             </div>
-            <!-- Fim do bloco de item -->
-        </div>
+        </section>
 
-        <div class="promotions">
-            <h2>Promoções e Descontos</h2>
-            <!-- Repetir este bloco para cada promoção -->
-            <div class="promotion-card">
-                <h3>Promoção 1</h3>
-                <p>Descrição da promoção...</p>
+        <section class="products">
+            <h2>Itens Disponíveis</h2>
+            <!-- Cards de Produtos -->
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="/img/hamburguer.jpg" alt="Produto 1">
+                    <div class="product-info">
+                        <h3>Produto 1</h3>
+                        <p>Descrição curta do produto...</p>
+                        <span class="price">R$ 29,90</span>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/img/vaggie-burger.png" alt="Produto 2">
+                    <div class="product-info">
+                        <h3>Produto 2</h3>
+                        <p>Descrição curta do produto...</p>
+                        <span class="price">R$ 34,90</span>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <!-- Adicionar mais cards se necessário -->
             </div>
-            <!-- Fim do bloco de promoção -->
-        </div>
+        </section>
     </main>
 
+    <!-- Pop-up do Carrinho -->
+    <div id="cart-popup" class="cart-popup">
+        <div class="cart-content">
+            <h2>Itens no Carrinho</h2>
+            <div class="cart-items">
+                <!-- Exibir itens selecionados aqui -->
+            </div>
+            <button id="checkout">Ir para o Pagamento</button>
+        </div>
+    </div>
+
+    <script src="/dist/userPage.js"></script>
 </body>
-<script src="/dist/userPage.js"></script>
 </html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário - Hamburgueria Jack</title>
+    <link rel="stylesheet" href="/css/perfil.css">
+    <link rel="icon" href="../img/duplo-bacon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- CDN do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Hamburgueria Jack</div>
+        <div class="user-menu">
+            <button class="user-icon">
+                <i class="fas fa-user"></i>
+            </button>
+            <button class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <div class="dropdown">
+                <a href="/html/senttings.html"><i class="fas fa-cog"></i> Configurações</a>
+                <a href="/html/historico.html"><i class="fas fa-history"></i> Últimos Itens Comprados</a>
+                <a href="/html/login.html"><i class="fas fa-sign-out-alt"></i> Sair</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Área Principal -->
+    <main class="main-content">
+        <section class="profile-header">
+            <div class="profile-info">
+                <img src="/img/avatar.png" alt="Foto do Usuário" class="avatar">
+                <h2>Nome do Usuário</h2>
+                <p>Email: usuario@email.com</p>
+            </div>
+        </section>
+
+        <section class="profile-settings">
+            <h3>Informações Pessoais</h3>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" value="Nome do Usuário">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="usuario@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" value="(XX) XXXXX-XXXX">
+                </div>
+                <button type="submit" class="btn-save">Salvar Alterações</button>
+            </form>
+        </section>
+
+        <section class="address-section">
+            <h3>Endereço de Entrega</h3>
+            <div class="address-card">
+                <p>Rua Exemplo, 123</p>
+                <p>Bairro: Centro, Cidade</p>
+                <p>CEP: 00000-000</p>
+                <button class="btn-edit-address">Editar Endereço</button>
+            </div>
+        </section>
+
+        <section class="payment-section">
+            <h3>Métodos de Pagamento</h3>
+            <div class="payment-card">
+                <p><i class="fas fa-credit-card"></i> Cartão de Crédito: **** **** **** 1234</p>
+                <button class="btn-edit-payment">Editar Pagamento</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="/dist/userProfile.js"></script>
+</body>
+</html>
